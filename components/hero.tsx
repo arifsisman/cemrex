@@ -14,7 +14,7 @@ export default function Hero() {
               className="text-4xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-pink-600 pb-6"
               data-aos="zoom-y-out"
             >
-              Professional Radiosonde Parachutes
+              Cemrex Radiosonde Parachutes
             </h1>
 
             <div className="flex justify-center">

@@ -48,7 +48,7 @@ export default function Contact() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-white mb-8">Contact Us</h3>
-                <h5 className="text-white font-bold text-lg mb-2">Ankara İz Organizasyon</h5>
+                <h5 className="text-white font-bold text-xl mb-2">Ankara İz Organizasyon</h5>
 
                 <a className="text-gray-300 text-lg" href="mailto:ankaraizorg@gmail.com">
                   ankaraizorg@gmail.com
@@ -62,6 +62,15 @@ export default function Contact() {
                     Lizbon Street 47/2
                     <br />
                     Ankara/TURKEY 06460
+                  </a>
+                </div>
+
+                <div className="py-4">
+                  <a
+                    className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
+                    href="mailto:ankaraizorg@gmail.com"
+                  >
+                    Send Email
                   </a>
                 </div>
               </div>
