@@ -1,25 +1,6 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
-import { Transition } from "@headlessui/react"
-import Image from "next/image"
-import FeaturesBg from "@/public/images/features-bg.png"
-import FeaturesElement from "@/public/images/features-element.png"
-
 export default function Features() {
-  const [tab, setTab] = useState<number>(1)
-
-  const tabs = useRef<HTMLDivElement>(null)
-
-  const heightFix = () => {
-    if (tabs.current && tabs.current.parentElement)
-      tabs.current.parentElement.style.height = `${tabs.current.clientHeight}px`
-  }
-
-  useEffect(() => {
-    heightFix()
-  }, [])
-
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}

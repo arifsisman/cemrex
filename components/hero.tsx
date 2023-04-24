@@ -1,8 +1,24 @@
 "use client"
 
 import Image from "next/image"
+import ImageGallery from "react-image-gallery"
 
 export default function Hero() {
+  const images = [
+    {
+      original: "/images/products.webp",
+      thumbnail: "/images/products.webp"
+    },
+    {
+      original: "https://picsum.photos/id/1015/1000/600/",
+      thumbnail: "https://picsum.photos/id/1015/250/150/"
+    },
+    {
+      original: "https://picsum.photos/id/1019/1000/600/",
+      thumbnail: "https://picsum.photos/id/1019/250/150/"
+    }
+  ]
+
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -17,7 +33,7 @@ export default function Hero() {
               Cemrex Radiosonde Parachutes
             </h1>
 
-            <div className="flex justify-center">
+            {/* <div className="flex justify-center">
               <Image
                 src="/images/products.webp"
                 alt="parachute"
@@ -25,7 +41,9 @@ export default function Hero() {
                 width={800}
                 style={{ borderRadius: "5px" }}
               />
-            </div>
+            </div> */}
+
+            {/* <ImageGallery items={images} /> */}
           </div>
         </div>
       </div>

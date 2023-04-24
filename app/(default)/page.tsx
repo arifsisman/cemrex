@@ -8,6 +8,7 @@ import Features from "@/components/features"
 import Products from "@/components/products"
 import References from "@/components/references"
 import Contact from "@/components/contact"
+import Gallery from "@/components/gallery"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Products />
+      <Gallery />
       <References />
       <Contact />
     </>
