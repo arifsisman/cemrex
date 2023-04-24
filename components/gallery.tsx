@@ -20,7 +20,6 @@ export default function Gallery() {
     { original: "/images/gallery/15.jpg" },
     { original: "/images/gallery/16.jpg" },
     { original: "/images/gallery/17.jpg" },
-    { original: "/images/gallery/18.jpg" },
     { original: "/images/gallery/19.jpg" },
     { original: "/images/gallery/20.jpg" },
     { original: "/images/gallery/21.jpg" },
