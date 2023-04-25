@@ -19,6 +19,7 @@ export default function Banner() {
                 }}
                 target="_blank"
                 rel="noreferrer"
+                style={{ cursor: "pointer" }}
               >
                 Contact us for pricing
               </a>
