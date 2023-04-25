@@ -92,11 +92,12 @@ export default function Products() {
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/5.jpg"></img>
+              <img src="/images/product/6.jpg"></img>
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
               <img src="/images/product/6.jpg"></img>
+              {/* <video src="/videos/demo.mp4" controls></video> */}
             </div>
           </div>
 
@@ -105,6 +106,17 @@ export default function Products() {
               <img src="/images/product/drone.jpg"></img>
             </div>
           </div>
+
+          {/* <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none pt-6">
+            <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
+              <div className="mb-2 text-2xl font-medium text-gray-800 dark:text-white">
+                1 to 10 pieces
+              </div>
+              <div className="mb-2 text-2xl font-bold text-gray-500 dark:text-gray-200">
+                <span>10$</span>
+              </div>
+            </div>
+          </div> */}
         </div>
       </div>
     </section>

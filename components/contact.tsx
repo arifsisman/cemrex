@@ -50,9 +50,7 @@ export default function Contact() {
                 <h3 className="h3 text-white mb-8">Contact Us</h3>
                 <h5 className="text-white font-bold text-xl mb-2">Ankara İz Organizasyon</h5>
 
-                <a className="text-gray-300 text-lg" href="mailto:ankaraizorg@gmail.com">
-                  ankaraizorg@gmail.com
-                </a>
+                <a className="text-gray-300 text-lg">cemrexparachute@gmail.com</a>
                 <br />
                 <a className="text-gray-300 text-lg">+90 312 473 33 38</a>
                 <br />
@@ -68,7 +66,7 @@ export default function Contact() {
                 <div className="py-4">
                   <a
                     className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
-                    href="mailto:ankaraizorg@gmail.com"
+                    href="mailto:cemrexparachute@gmail.com"
                   >
                     Send Email
                   </a>

@@ -37,7 +37,7 @@ export default function Gallery() {
           </div>
 
           {/* Section content */}
-          <ImageGallery items={images} />
+          <ImageGallery items={images} autoPlay={true} />
         </div>
       </div>
     </section>
