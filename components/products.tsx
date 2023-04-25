@@ -99,6 +99,12 @@ export default function Products() {
               <img src="/images/product/6.jpg"></img>
             </div>
           </div>
+
+          <div className="max-w-sm mx-auto md:max-w-2xl lg:max-w-none pt-6">
+            <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
+              <img src="/images/product/drone.jpg"></img>
+            </div>
+          </div>
         </div>
       </div>
     </section>
