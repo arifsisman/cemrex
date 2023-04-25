@@ -33,6 +33,17 @@ export default function Products() {
               <table className="shadow-lg bg-white border-collapse">
                 <tbody>
                   <tr>
+                    <td className="border px-8 py-4 font-bold">Manufacturer</td>
+                    <td className="border px-8 py-4">Cemrex Parachutes</td>
+                  </tr>
+                  <tr>
+                    <td className="border px-8 py-4 font-bold">Application</td>
+                    <td className="border px-8 py-4">
+                      Aerology, Environmental Protection, Landing sites, Marine, Military,
+                      Radiosondes, Research, Synoptic
+                    </td>
+                  </tr>
+                  <tr>
                     <td className="border px-8 py-4 font-bold">Max. Weight</td>
                     <td className="border px-8 py-4">60 ± 10 g</td>
                   </tr>
@@ -41,23 +52,23 @@ export default function Products() {
                     <td className="border px-8 py-4">170 cm</td>
                   </tr>
                   <tr>
-                    <td className="border px-8 py-4 font-bold">Cold Resistance</td>
-                    <td className="border px-8 py-4">-65 C</td>
+                    <td className="border px-8 py-4 font-bold">Operating temperature</td>
+                    <td className="border px-8 py-4">-65 °C - 80 °C</td>
                   </tr>
                   <tr>
-                    <td className="border px-8 py-4 font-bold">Drop Rate</td>
+                    <td className="border px-8 py-4 font-bold">Descent speed</td>
                     <td className="border px-8 py-4">6 m/s</td>
                   </tr>
                   <tr>
-                    <td className="border px-8 py-4 font-bold">Fabric Type</td>
-                    <td className="border px-8 py-4">Nylon</td>
+                    <td className="border px-8 py-4 font-bold">Material</td>
+                    <td className="border px-8 py-4">Plastic</td>
                   </tr>
                   <tr>
-                    <td className="border px-8 py-4 font-bold">Fabric Color</td>
+                    <td className="border px-8 py-4 font-bold">Material Color</td>
                     <td className="border px-8 py-4">Orange</td>
                   </tr>
                   <tr>
-                    <td className="border px-8 py-4 font-bold">Fabric Thickness</td>
+                    <td className="border px-8 py-4 font-bold">Material Thickness</td>
                     <td className="border px-8 py-4">0,6 ± 0,1 mm</td>
                   </tr>
                   <tr>
