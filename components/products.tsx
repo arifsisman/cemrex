@@ -39,8 +39,7 @@ export default function Products() {
                   <tr>
                     <td className="border px-8 py-4 font-bold">Application</td>
                     <td className="border px-8 py-4">
-                      Aerology, Environmental Protection, Landing sites, Marine, Military,
-                      Radiosondes, Research, Synoptic
+                      Meteorology, Radiosondes, Marine, Military, Research, Environmental Protection
                     </td>
                   </tr>
                   <tr>
@@ -103,7 +102,7 @@ export default function Products() {
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/6.jpg"></img>
+              <img src="/images/product/5.jpg"></img>
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">

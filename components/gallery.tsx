@@ -5,26 +5,9 @@ import ImageGallery from "react-image-gallery"
 export default function Gallery() {
   const images = [
     { original: "/images/gallery/products.webp" },
-    { original: "/images/gallery/11.jpg" },
-    { original: "/images/gallery/2.jpg" },
-    { original: "/images/gallery/3.jpg" },
-    { original: "/images/gallery/5.jpg" },
-    { original: "/images/gallery/6.jpg" },
-    { original: "/images/gallery/7.jpg" },
-    { original: "/images/gallery/8.jpg" },
     { original: "/images/gallery/9.jpg" },
-    { original: "/images/gallery/10.jpg" },
-    { original: "/images/gallery/12.jpg" },
-    { original: "/images/gallery/13.jpg" },
-    { original: "/images/gallery/14.jpg" },
-    { original: "/images/gallery/15.jpg" },
-    { original: "/images/gallery/16.jpg" },
-    { original: "/images/gallery/17.jpg" },
-    { original: "/images/gallery/19.jpg" },
-    { original: "/images/gallery/20.jpg" },
-    { original: "/images/gallery/21.jpg" },
-    { original: "/images/gallery/22.jpg" },
-    { original: "/images/gallery/23.jpg" }
+    { original: "/images/gallery/5.jpg" },
+    { original: "/images/gallery/16.jpg" }
   ]
 
   return (
