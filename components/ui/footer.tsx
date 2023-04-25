@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
           {/* Social as */}
-          {/* <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+          <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
                 href="#0"
@@ -39,10 +39,18 @@ export default function Footer() {
                 </svg>
               </a>
             </li>
-          </ul> */}
+          </ul>
+
+          <div className="sm:col-span-12 lg:col-span-3">
+            <div className="mb-2">
+              <img src="/images/ankaraiz.png" alt="Ankara Iz Org" style={{ height: "55px" }} />
+            </div>
+          </div>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; Cemrex.com. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">
+            &copy; radiosondeparachute.com - All rights reserved.
+          </div>
         </div>
       </div>
     </footer>
