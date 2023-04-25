@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
+
 export default function Contact() {
   return (
     <section>
@@ -47,29 +51,60 @@ export default function Contact() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-8">Contact Us</h3>
-                <h5 className="text-white font-bold text-xl mb-2">Ankara İz Organizasyon</h5>
+                <h3 className="h3 text-white mb-4">Contact Us</h3>
 
-                <a className="text-gray-300 text-lg">cemrexparachute@gmail.com</a>
-                <br />
-                <a className="text-gray-300 text-lg">+90 312 473 33 38</a>
-                <br />
+                {/* <div className="flex flex-row gap-2 mb-2">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    height={30}
+                    width={30}
+                    color="white"
+                  ></FontAwesomeIcon>
+                  <a className="text-gray-300 text-lg">cemrexparachute@gmail.com</a>
+                </div>
+
+                <div className="flex flex-row gap-2">
+                  <FontAwesomeIcon
+                    icon={faWhatsapp}
+                    height={30}
+                    width={30}
+                    color="white"
+                  ></FontAwesomeIcon>
+                  <a className="text-gray-300 text-lg">+90 555 456 49 00</a>
+                </div> */}
 
                 <div className="pt-4">
+                  <h5 className="text-white font-bold text-xl">Ankara İz Organizasyon</h5>
+
                   <a className="text-gray-300 text-lg">
-                    Lizbon Street 47/2
+                    Lizbon St. 47/2 Cankaya
                     <br />
                     Ankara/TURKEY 06460
                   </a>
                 </div>
 
-                <div className="py-4">
-                  <a
-                    className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
-                    href="mailto:cemrexparachute@gmail.com"
-                  >
-                    Send Email
-                  </a>
+                <div className="pb-2 pt-8">
+                  <button className="inline-flex items-center h-10 px-5 text-indigo-100 font-bold transition-colors duration-150 bg-blue-700 rounded focus:shadow-outline hover:bg-blue-800 mb-4 mr-4">
+                    <FontAwesomeIcon
+                      icon={faEnvelope}
+                      height={24}
+                      width={24}
+                      color="white"
+                      className="mr-2"
+                    ></FontAwesomeIcon>
+                    <span>cemrexparachute@gmail.com</span>
+                  </button>
+
+                  <button className="inline-flex items-center h-10 px-5 text-indigo-100 font-bold transition-colors duration-150 bg-blue-700 rounded focus:shadow-outline hover:bg-blue-800 ">
+                    <FontAwesomeIcon
+                      icon={faWhatsapp}
+                      height={24}
+                      width={24}
+                      color="white"
+                      className="mr-2"
+                    ></FontAwesomeIcon>
+                    <span>+90 555 456 49 00</span>
+                  </button>
                 </div>
               </div>
             </div>
