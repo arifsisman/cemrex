@@ -48,6 +48,10 @@ export default function Products() {
                     <td className="border px-8 py-4">60 ± 10 g</td>
                   </tr>
                   <tr>
+                    <td className="border px-8 py-4 font-bold">Payload Capacity</td>
+                    <td className="border px-8 py-4">150 gr</td>
+                  </tr>
+                  <tr>
                     <td className="border px-8 py-4 font-bold">Operating temperature</td>
                     <td className="border px-8 py-4">-65 °C - 80 °C</td>
                   </tr>
