@@ -24,16 +24,16 @@ export default function References() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-4">
         <div className="py-12">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-8">
-            <h2 className="h2 mb-4">References</h2>
+            <h2 className="h2 mb-2">References</h2>
           </div>
 
           <div className="flex items-center justify-center py-2 col-span-2">
             <a href="https://mgm.gov.tr/" target="_blank" rel="noreferrer">
-              <Image src="/images/mgm.webp" alt="MGM" height={200} width={400} />
+              <Image src="/images/mgm.png" alt="MGM" height={200} width={400} />
             </a>
           </div>
         </div>

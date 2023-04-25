@@ -51,7 +51,7 @@ export default function Contact() {
             <div className="relative flex flex-col lg:flex-row justify-between items-center">
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-4">Contact Us</h3>
+                <h3 className="h3 text-white mb-8">Contact Us</h3>
 
                 {/* <div className="flex flex-row gap-2 mb-2">
                   <FontAwesomeIcon
@@ -84,27 +84,31 @@ export default function Contact() {
                 </div>
 
                 <div className="pb-2 pt-8">
-                  <button className="inline-flex items-center h-10 px-5 text-indigo-100 font-bold transition-colors duration-150 bg-blue-700 rounded focus:shadow-outline hover:bg-blue-800 mb-4 mr-4">
-                    <FontAwesomeIcon
-                      icon={faEnvelope}
-                      height={24}
-                      width={24}
-                      color="white"
-                      className="mr-2"
-                    ></FontAwesomeIcon>
-                    <span>cemrexparachute@gmail.com</span>
-                  </button>
+                  <a href="mailto:cemrexparachute@gmail.com">
+                    <button className="inline-flex items-center h-10 px-5 text-indigo-100 font-bold transition-colors duration-150 bg-blue-700 rounded focus:shadow-outline hover:bg-blue-800 mb-2 mr-4">
+                      <FontAwesomeIcon
+                        icon={faEnvelope}
+                        height={24}
+                        width={24}
+                        color="white"
+                        className="mr-2"
+                      ></FontAwesomeIcon>
+                      <span>cemrexparachute@gmail.com</span>
+                    </button>
+                  </a>
 
-                  <button className="inline-flex items-center h-10 px-5 text-indigo-100 font-bold transition-colors duration-150 bg-blue-700 rounded focus:shadow-outline hover:bg-blue-800 ">
-                    <FontAwesomeIcon
-                      icon={faWhatsapp}
-                      height={24}
-                      width={24}
-                      color="white"
-                      className="mr-2"
-                    ></FontAwesomeIcon>
-                    <span>+90 555 456 49 00</span>
-                  </button>
+                  <a href="https://wa.me/905554564900" target="blank">
+                    <button className="inline-flex items-center h-10 px-5 text-indigo-100 font-bold transition-colors duration-150 bg-blue-700 rounded focus:shadow-outline hover:bg-blue-800 ">
+                      <FontAwesomeIcon
+                        icon={faWhatsapp}
+                        height={24}
+                        width={24}
+                        color="white"
+                        className="mr-2"
+                      ></FontAwesomeIcon>
+                      <span>+90 555 456 49 00</span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
