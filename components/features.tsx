@@ -30,15 +30,16 @@ export default function Features() {
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h4 mb-3">What is a Radiosonde Parachute?</h3>
                 <p className="text-l text-gray-600">
-                  A radiosonde is a small weather station coupled with a radio transmitter. The
-                  radiosonde is attached to a helium or hydrogen-filled balloon, generally called a
-                  weather balloon, and the balloon lifts the radiosonde to altitudes exceeding
-                  115,000 feet. During the radiosonde’s ascent, it transmits data on temperature,
-                  pressure, and humidity to a sea-, air-, or land-based receiving station. Often,
-                  the position of the radiosonde is tracked through GPS, radar, or other means, to
-                  provide data on the strength and direction of winds aloft. Thus the radiosonde
-                  flight produces a vertical profile of weather parameters in the area above which
-                  it was launched.
+                  Meteorology stations release balloons into the sky to receive information on
+                  pressure, temperature, humidity and wind in the air. The radiosonde device
+                  connected to the balloons ascends to a height of 35 km from the ground and
+                  transmits the information in the air to the ground station via radio waves during
+                  its stay in the air.
+                </p>
+                <br />
+                <p className="text-l text-gray-600">
+                  A parachute is used to prevent the radiosonde device attached to the balloon
+                  bursting at a certain altitude from falling randomly.
                 </p>
               </div>
             </div>
