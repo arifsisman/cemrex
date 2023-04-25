@@ -49,7 +49,8 @@ export default function Footer() {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            &copy; radiosondeparachute.com - All rights reserved.
+            &copy; <a href="https://www.radiosondeparachute.com">radiosondeparachute.com - </a>
+            <a href="https://www.meteoparachute.com">meteoparachute.com</a> - All rights reserved.
           </div>
         </div>
       </div>
