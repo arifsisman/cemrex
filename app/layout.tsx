@@ -1,6 +1,7 @@
 import "./css/style.css"
 
 import { Inter } from "next/font/google"
+import { Metadata } from "next"
 
 import Header from "@/components/ui/header"
 import Banner from "@/components/banner"
@@ -11,9 +12,21 @@ const inter = Inter({
   display: "swap"
 })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Cemrex",
-  description: "Radiosonde Parachute"
+  description: "Radiosonde Parachute",
+  keywords: [
+    "Radiosonde",
+    "Radiosonde Parachute",
+    "Parachute",
+    "Meteorology",
+    "Marine",
+    "Military",
+    "Research",
+    "Weather Balloon",
+    "Weather",
+    "Environmental Protection"
+  ]
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
