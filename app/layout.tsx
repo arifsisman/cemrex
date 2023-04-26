@@ -30,7 +30,8 @@ export const metadata: Metadata = {
     "Weather Balloon Parachute",
     "Environmental Protection",
     "Research"
-  ]
+  ],
+  verification: { yandex: "34703827f0142cd5" }
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
