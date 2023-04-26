@@ -2,6 +2,7 @@ import "./css/style.css"
 
 import { Inter } from "next/font/google"
 import { Metadata } from "next"
+import { Analytics } from "@vercel/analytics/react"
 
 import Header from "@/components/ui/header"
 import Banner from "@/components/banner"
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           {children}
           <Banner />
+          <Analytics />
         </div>
       </body>
     </html>
