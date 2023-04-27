@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     "Parachute",
     "Meteorology",
     "Meteorological Parachute",
+    "High Altitude Balloon Parachute",
     "Marine",
     "Military",
     "Weather",
