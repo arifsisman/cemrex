@@ -1,5 +1,3 @@
-import Logo from "./logo"
-
 export default function Footer() {
   return (
     <footer>
@@ -50,7 +48,8 @@ export default function Footer() {
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
             &copy; <a href="https://www.radiosondeparachute.com">radiosondeparachute.com - </a>
-            <a href="https://www.meteoparachute.com">meteoparachute.com</a> - All rights reserved.
+            &copy; <a href="https://www.meteoparachute.com">meteoparachute.com - </a>
+            <a>All rights reserved.</a>
           </div>
         </div>
       </div>
