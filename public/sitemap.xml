@@ -1,8 +1,6 @@
-   <xml version="1.0" encoding="UTF-8">
-   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <url>
-       <loc>https://www.radiosondeparachute.com</loc>
-       <lastmod>2022-04-27</lastmod>
-     </url>
-   </urlset>
-   </xml>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://www.radiosondeparachute.com/pages-sitemap.xml</loc>
+        <lastmod>2023-04-26</lastmod>
+    </sitemap>
+</sitemapindex>
