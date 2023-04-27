@@ -43,7 +43,7 @@ export default function Footer() {
 
           <div className="sm:col-span-12 lg:col-span-3">
             <div className="mb-2">
-              <img src="/images/ankaraiz.png" alt="Ankara Iz Org" style={{ height: "55px" }} />
+              <img src="/images/ankaraiz.png" alt="logo" style={{ height: "55px" }} />
             </div>
           </div>
 

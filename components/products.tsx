@@ -83,34 +83,34 @@ export default function Products() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/1.jpg"></img>
+              <img src="/images/product/1.jpg" alt="meteorological parachute"></img>
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/2.jpg"></img>
+              <img src="/images/product/2.jpg" alt="meteorological parachute"></img>
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/3.jpg"></img>
+              <img src="/images/product/3.jpg" alt="meteorological parachute"></img>
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/4.jpg"></img>
+              <img src="/images/product/4.jpg" alt="meteorological parachute"></img>
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/5.jpg"></img>
+              <img src="/images/product/5.jpg" alt="meteorological parachute"></img>
             </div>
 
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/6.jpg"></img>
+              <img src="/images/product/6.jpg" alt="meteorological parachute"></img>
               {/* <video src="/videos/demo.mp4" controls></video> */}
             </div>
           </div>
 
           <div className="max-w-sm mx-auto md:max-w-2xl lg:max-w-none pt-6">
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
-              <img src="/images/product/drone.jpg"></img>
+              <img src="/images/product/drone.jpg" alt="meteorological parachute and drone"></img>
             </div>
           </div>
 

@@ -32,7 +32,12 @@ export default function References() {
 
           <div className="flex items-center justify-center py-2 col-span-2">
             <a href="https://mgm.gov.tr/" target="_blank" rel="noreferrer">
-              <Image src="/images/mgm.png" alt="MGM" height={200} width={400} />
+              <Image
+                src="/images/mgm.png"
+                alt="meteoroji genel müdürlüğü"
+                height={200}
+                width={400}
+              />
             </a>
           </div>
         </div>
