@@ -46,7 +46,7 @@ export default function References() {
             <a href="https://mgm.gov.tr/" target="_blank" rel="noreferrer">
               <Image
                 src="/images/mgm.png"
-                alt="meteoroji genel müdürlüğü"
+                alt="meteoroloji genel müdürlüğü"
                 height={150}
                 width={300}
               />
