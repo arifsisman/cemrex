@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pb-12 md:pb-20">
+        <div className="pb-12">
           {/* CTA box */}
           <div className="relative bg-gray-900 rounded py-10 px-8 md:py-16 md:px-12 shadow-2xl overflow-hidden">
             {/* Background illustration */}

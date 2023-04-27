@@ -3,7 +3,10 @@ export default function Footer() {
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Bottom area */}
-        <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
+        <div
+          className="flex items-center md:justify-between py-4 md:py-8 border-t border-gray-200 
+                    gap-2 flex-col md:flex-row"
+        >
           {/* Social as */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
@@ -24,7 +27,7 @@ export default function Footer() {
 
             <li className="ml-4">
               <a
-                href="#0"
+                href="https://www.facebook.com/profile.php?id=100091986316157"
                 className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 aria-label="Facebook"
               >

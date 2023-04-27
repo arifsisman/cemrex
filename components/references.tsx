@@ -26,7 +26,7 @@ export default function References() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-4">
         <div className="py-12">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-4">
+          <div className="max-w-4xl mx-auto text-center pb-4">
             <h2 className="h2 mb-2">About Us</h2>
           </div>
 
@@ -34,7 +34,7 @@ export default function References() {
             className="place-items-center py-2 max-w-sm mx-auto 
             grid md:grid-cols-2 lg:grid-cols-2 md:max-w-2xl lg:max-w-none gap-4"
           >
-            <div className=" max-w-3xl mx-auto">
+            <div className=" max-w-2xl mx-auto">
               <p className="text-l text-gray-600">
                 Cemrex Radiosonde Parachute is a Turkish brand of the company Ankara iz Organizasyon
                 Ltd. Sti. Our company has been producing Radiosonde parachutes since 2010 for
