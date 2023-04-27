@@ -1,7 +1,4 @@
-import { faParachuteBox } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Image from "next/image"
-import Link from "next/link"
 import cizim from "@/public/images/cizim.png"
 
 export default function Products() {

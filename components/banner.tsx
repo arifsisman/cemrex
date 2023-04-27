@@ -21,7 +21,7 @@ export default function Banner() {
                 rel="noreferrer"
                 style={{ cursor: "pointer" }}
               >
-                Contact us for pricing
+                Contact us for more information
               </a>
             </div>
             <button
