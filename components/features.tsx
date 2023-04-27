@@ -30,16 +30,23 @@ export default function Features() {
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h4 mb-3">What is a Radiosonde Parachute?</h3>
                 <p className="text-l text-gray-600">
-                  Meteorology stations release balloons into the sky to receive information on
-                  pressure, temperature, humidity and wind in the air. The radiosonde device
-                  connected to the balloons ascends to a height of 35 km from the ground and
-                  transmits the information in the air to the ground station via radio waves during
-                  its stay in the air.
+                  A radiosonde is a small box-like instrument that is carried into the upper
+                  atmosphere by balloon. As it travels upward, it transmits meteorological
+                  measurements to ground stations. Radiosondes measure temperature with a
+                  thermometer, humidity with a hygrometer, and air pressure with a barometer.
+                  Radiosondes are attached to helium-filled neoprene balloons that are designed to
+                  burst when they reach a specified altitude. They can operate up to around 100,000
+                  feet (30,000 meters).
                 </p>
                 <br />
                 <p className="text-l text-gray-600">
-                  A parachute is used to prevent the radiosonde device attached to the balloon
-                  bursting at a certain altitude from falling randomly.
+                  Meteorologists send these instruments up into the upper atmosphere on balloons
+                  twice a day simultaneously around the world--at midnight and at noon Greenwich
+                  Mean Time (GMT) Radiosondes take continuous measurements as the balloon rises
+                  through the air. This information is transmitted by radio back to the ground.
+                  Special tracking equipment monitors the movement of the radiosonde, which is
+                  converted into wind speed and wind direction data. When the balloon bursts, the
+                  radiosonde falls back to Earth by parachute.
                 </p>
               </div>
             </div>
