@@ -7,8 +7,9 @@ import Gallery from "@/components/gallery"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Cemrex Meteorological Parachute",
-  description: "CMX P1 | Handmade Radiosonde Parachute | Contact us for price and more information",
+  title: "Cemrex Meteorological Parachute | CMX P1",
+  description:
+    "Radiosonde Parachute, Meteorological Parachute, Totex Parachute, Weather Parachute, Weather Balloon Parachute",
   keywords: [
     "Radiosonde",
     "Radiosonde Parachute",
