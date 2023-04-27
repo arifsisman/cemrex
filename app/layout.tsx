@@ -15,8 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Cemrex Meteorological Parachute",
-  description:
-    "Radiosonde Parachute, Meteorological Parachute, Totex Parachute, Weather Parachute, Weather Balloon Parachute",
+  description: "CMX P1 | Handmade Radiosonde Parachute | Contact us for more information",
   keywords: [
     "Radiosonde",
     "Radiosonde Parachute",
