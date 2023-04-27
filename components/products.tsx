@@ -125,10 +125,10 @@ export default function Products() {
             </div>
           </div> */}
 
-          <span>
+          <p>
             Cemrex Radiosonde Parachute, Radiosonde Parachute, Meteorological Parachute, Totex
             Parachute, Weather Balloon Parachute, High Altitude Balloon Parachute
-          </span>
+          </p>
         </div>
       </div>
     </section>
