@@ -14,7 +14,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Meteorological Parachute | CMX P1",
+  title: "Cemrex Meteorological Parachute | CMX P1",
   description:
     "Radiosonde Parachute, Meteorological Parachute, Totex Parachute, Weather Parachute, Weather Balloon Parachute",
   keywords: [
