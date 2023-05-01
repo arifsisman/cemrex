@@ -118,13 +118,13 @@ export default function Products() {
             </div>
           </div> */}
 
-          <div className="max-w-sm mx-auto md:max-w-2xl lg:max-w-none pt-6">
+          <div className="max-w-sm mx-auto md:max-w-2xl lg:max-w-none pt-6 md:w-2/3">
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
               <img src="/images/catalog1.webp" alt="meteorological parachute catalog"></img>
             </div>
           </div>
 
-          <div className="max-w-sm mx-auto md:max-w-2xl lg:max-w-none pt-6">
+          <div className="max-w-sm mx-auto md:max-w-2xl lg:max-w-none pt-6 md:w-2/3">
             <div className="relative flex flex-col items-center p-2 bg-white rounded shadow-xl">
               <img src="/images/catalog2.webp" alt="meteorological parachute catalog"></img>
             </div>
